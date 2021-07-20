@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body {
+  background-color: #d6eadf;
+  margin: 0;
+  font-family: 'Kalam';
+  width: 100%;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+#title {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+#top-content,
+#mid-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+#tagline {
+  width: 600px;
+  font-size: 40px;
+  margin-bottom: 0.5rem;
+}
+
+#logo-gif {
+  margin-top: 0px;
+  text-align: center;
+}
+
+#logo-gif img {
+  width: 300px;
+  object-fit: fill;
+}
+
+#screen-record img {
+  width: 300px;
+}
+
+#small-text {
+  font-size: 16px;
+  width: 600px;
+  margin-right: 0;
+}
+
+#mid-text {
+  padding: 3rem;
+  text-align: right;
+}
+
+#fact {
+  margin: 0;
+  text-align: right;
+}
+
+#fact-source a {
+  text-decoration: none;
+  margin: 0;
+  color: black;
+  font-size: 12px;
+  text-align: right;
+}
+
+#contributors {
+  background-color: #eac4d5;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+#credits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-credits {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding: 6px;
+}
+
+.logos img {
+  width: 25px;
+  margin: 0.5rem;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "web-taste-not-waste",
+  "version": "1.0.0",
+  "description": "taste not waste web landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -p 8000 -o -c-1"
+  },
+  "author": "Daniella Aceves Laura Buffington Mabel Lawrence Clare Sweeny",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
