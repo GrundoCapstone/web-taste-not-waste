@@ -15,6 +15,10 @@ h5 {
   font-size: 25px;
 }
 
+a {
+  color: black;
+}
+
 #title {
   font-size: 50px;
   text-align: center;
@@ -47,6 +51,30 @@ h5 {
   object-fit: fill;
 }
 
+#mid-content {
+  background-color: #eac4d5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+#download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#download-section h2 {
+  margin-bottom: 1rem;
+}
+
+#download-instructions {
+  margin-top: 0;
+  font-size: 16px;
+}
+
 #screen-record img {
   width: 300px;
 }
@@ -72,9 +100,7 @@ h5 {
 }
 
 #fact-source a {
-  text-decoration: none;
   margin: 0;
-  color: black;
   font-size: 12px;
   text-align: right;
 }
@@ -122,4 +148,8 @@ h5 {
   margin: 0.5rem;
   border: none;
   border-radius: 0;
+}
+
+#repo {
+  text-align: center;
 }
